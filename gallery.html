@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+     
+    .pics{
+        box-sizing: border-box;
+        display: flex;
+        flex-flow: row wrap;
+        float: none;
+    }
+    .pics>div{
+        margin:auto;
+        width: 520px;
+        height: 680px;
+        
+    }
+    .pics>div>img{
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+         
+    }
+    
+    body{
+         
+        background-image: url("/img/abstract-background-of-four-colored-triangles.jpg");
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        justify-content: center;
+        align-items: center;
+    }
+     
+</style>
+<body>
+     <div class="pics">
+        <div><img  src="/img/hudai-gayiran-i8P9zdvQnhc-unsplash.jpg" alt=""></div>
+        <div><img src="/img/max-22zwZgax33c-unsplash.jpg" alt=""></div>
+        <div><img src="/img/alexis-antoine-kXMe4hugFA4-unsplash.jpg" alt=""> </div>
+        <div><img id="rotate" src="/img/boban-simonovski-3zdRN5B8MiM-unsplash.jpg" alt=""> </div>
+     </div>
+</body>
+</html>
